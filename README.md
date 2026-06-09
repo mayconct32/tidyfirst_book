@@ -14,22 +14,25 @@ Código bagunçado é um transtorno. É preciso fazer o "tidy" do código para q
 "Tidyings são um subconjunto de refatorações. Tidyings são pequenas e adoráveis refatorações sutis, que ninguém poderia desaprovar."(pág 23 7-11)
 
 ### 1. Cláusulas de guarda
-"Cláusulas de guarda se comportam como blocos condicionais ou verificações prévias que avaliam determinadas condições, antes de permitir que o algoritmo no código execute uma ação. Se a condicão for verdadeira, o algoritmo prossegue normalmente. Se a condicao for falsa, a cláusula de guarda direciona o algoritmo para outro 'caminho'. Muitas pessoas conhecem esse conceito como pré-condição."(pág 24 N.T)
+"Cláusulas de guarda se comportam como blocos condicionais ou verificações prévias que avaliam determinadas condições, antes de permitir que o algoritmo no código execute uma ação. Se a condição for verdadeira, o algoritmo prossegue normalmente. Se a condicao for falsa, a cláusula de guarda direciona o algoritmo para outro 'caminho'. Muitas pessoas conhecem esse conceito como pré-condição."(pág 24 N.T)
 
 Antes:
-```python
-if (condição):
-    if (outra condicão):
+```js
+if (condição){
+    if (outra condição){
         ...todo o resto do código da rotina...
+    }
+}
 ```
+
 Aplicando cláusulas de guarda:
-```python
-if (não atender a condição): return
-if (outra condicão): return
+```js
+if (não atender a condição) return
+if (outra condição) return
 ...restante do código da rotina...
 ```
 
-Fica mais fácil analisar o código com cláusulas de guarda porque as precondicoes sao explícitas.
+Fica mais fácil analisar o código com cláusulas de guarda porque as precondições são explícitas.
 
 ### 2. Código morto
 
@@ -39,11 +42,11 @@ Fica mais fácil analisar o código com cláusulas de guarda porque as precondic
 
 ### 3. Normalize simetrias
 
-Escolha um unico padrão e aplique de forma consistente no projeto. Usar padroes de forma intercambiável, gera confusão e dificulta a manutencão.
+Escolha um único padrão e aplique de forma consistente no projeto. Usar padrões de forma intercambiável, gera confusão e dificulta a manutenção.
 
 "As coisas ficam confusas quando dois ou mais padrões são usados de maneira intercambiável"(pág 28 18-19)
 
-### 4. Interface nova, implementacão antiga
+### 4. Interface nova, implementação antiga
 
 Seu projeto contém uma interface confusa, complicada ou difícil de usar? Basta implementar a nova interface chamando a interface antiga. O código existente continua funcionando da mesma forma, enquanto você melhora, muda ou incrementa a interface pela qual as outras partes do sistema interagem com ele.
 
@@ -56,6 +59,55 @@ Seu projeto contém uma interface confusa, complicada ou difícil de usar? Basta
 Ordene o código, agrupando elementos que estão relacionados. Quando for modificá-los, será mais fácil caso precise fazer alterações, corrigir algum problema ou até mesmo implementar uma nova funcionalidade.
 
 ### 7. Mova declaração e inicialização juntas
+
+"O nome de uma variável fornece uma dica sobre seu papel no processo de cálculo."(pág 34 1-2)
+
+"Ao se deparar com um código que separa a declaração(com um tipo possível) e a inicialização, fica mais difícil de lê-lo."(pág 34 3-5)
+
+Antes:
+```js
+function example(){
+    int a
+    //...algum código que não usa a variável "a"
+    a = ...
+    int b
+    //...um pouco mais de código, talvez use "a" mas não use "b"
+    b = ...a...
+    //...algum código que usa "b"
+}
+```
+
+Movendo declarações e inicializações juntas
+```js
+function example(){
+    int a = ...
+    //...algum código que não usa a variável "a"
+    //...um pouco mais de código, talvez use "a" mas não use "b"
+    int b = ...a...
+    //...algum código que usa "b"
+}
+```
+
+### 8. Explique as variáveis
+
+Nomeie variáveis descrevendo seus valores. Extraia expressões em nomes autoexplicativos.
+
+### 9. Explique as constantes
+
+Crie uma constante simbólica. Substitua os usos da constante literal pelo símbolo.
+
+Antes:
+```js 
+if (response.status_code === 404)
+```
+
+Explicando a constante:
+```js 
+if (response.status_code === PAGE_NOT_FOUND)
+```
+
+### 10. Parâmetros explícitos
 ... 
+
 
 
