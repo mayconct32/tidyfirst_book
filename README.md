@@ -1,6 +1,6 @@
 # *Resumo do livro "TidyFirst?"*
 ###
-<img src="/tidyfirst.jpg" alt="" width="550px" height="650px">
+<img src="/tidyfirst.jpg" alt="" width="500px" height="600px">
 
 ## Apresentação
 Código bagunçado é um transtorno. É preciso fazer o "tidy" do código para que fique mais legível, e isso exige dividi-lo em seções gerenciáveis. Neste guia prático, o autor Kent Beck, criador da Extreme Programming e pioneiro dos padrões de software, sugere quando e onde podemos aplicar as tidyings a fim de melhorar o código, nunca se esquecendo da estrutura geral do sistema. 
