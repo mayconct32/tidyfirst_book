@@ -110,7 +110,7 @@ if (response.status_code === 404_PAGE_NOT_FOUND)
 
 Adicione parâmetros explícitos. Isso irá melhorar a legibilidade e a compreensão do código.
 
-"É comum ver blocos de parâmetros passados em um mapeamento(dicionário). Isso dificulta ler e entender quais dados são necessários."
+"É comum ver blocos de parâmetros passados em um mapeamento(dicionário). Isso dificulta ler e entender quais dados são necessários."(pág 39 6-7)
 
 Antes:
 ```ts
@@ -122,5 +122,21 @@ Aplicando parâmetros explícitos:
 function calcular_desconto(preco: number, cupom: boolean){}
 ```
 
+### 11. Segmente as instruções
 
+"Insira uma linha em branco entre as partes."(pág 40 3)
+
+"Essa aqui se destaca como a tidying mais simples."(pág 40 1)
+
+### 12. Extraia o helper
+
+Helper -> função(ou método) auxiliar criado para isolar um pedaço de lógica que estava "escondido" dentro de um método maior
+
+"Ao notar um bloco de código dentro de uma rotina que tem propósito óbvio e interação limitada com o resto do código na rotina. Extraia o bloco como uma rotina helper. Nomeie a rotina de acordo com o propósito(não como ela funciona)."(pág 41 1-4)
+
+### 13. Um amontoado
+
+Amontoado -> Um código que funciona, mas está bagunçado. Não tem separação clara de ideias, tudo está meio "misturado" num lugar. 
+
+Kent beck sugere para utilizarmos a técnica inline(substituição de chamadas de função pelo corpo da função em si, diretamente no local em que a chamada é feita), incorporando o máximo de código que puder, até que tudo fique em um grande amontoado. Fazendo o tidying a partir daquele ponto.
 
