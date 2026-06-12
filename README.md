@@ -159,5 +159,18 @@ function getX(){
 ```
 
 ## Parte II
+###
+
+### Gerenciamento
+
+"Ser capaz de identificar quando uma tidying e aplicá-la não significa que você dominou a prática de tidyings. O título deste livro livro é Tidy First?, com ênfase no ponto de interrogação. Acho importante frisar que só porque pode fazer um tidy não significa que deve fazê-lo. Nesta seção, analisaremos como gerenciar tidyings e adequá-las em um fluxo de trabalho de desenvolvimento pessoal:
+
+Quando começar a aplicar tidyings?
+Quando parar de aplicar tidyings?
+Como combinar tidyings, alterando a estrutura do código, com a mudaça do comportamento do sistema?"
+
+### 16. Separe as tidyings
 ...
+
+
 
