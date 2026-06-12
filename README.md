@@ -167,10 +167,32 @@ function getX(){
 
 Quando começar a aplicar tidyings?
 Quando parar de aplicar tidyings?
-Como combinar tidyings, alterando a estrutura do código, com a mudaça do comportamento do sistema?"
+Como combinar tidyings, alterando a estrutura do código, com a mudaça do comportamento do sistema?"(pág 48 13-16)
 
 ### 16. Separe as tidyings
-...
+
+Separação de tidyings em um pull request
+
+1. Tudo num commit só
+   
+- mais rápido, menos overhead (sobrecarga);
+- dificulta revisão e rastreamento;
+- aceitável em times pequenos com alta confiança.
+
+2. Commits separados dentro do mesmo PR
+   
+- Um commit só com tidyings, outro com o comportamento;
+- o revisor consegue ler separadamente, mas está tudo junto no PR;
+- bom equilíbrio para a maioria dos times.
+
+3. PRs completamente separados(é o ideal separar commits de alteração na estrutura em PRs separados)
+   
+- máxima clareza e separação;
+- custo alto de overhead;
+- vale quando o tidy é grande, arriscado, ou afeta muita gente.
+
+Kent Beck não está prescrevendo uma regra, está pedindo para tornar visível a diferença entre estrutura e comportamento. Como você deve fazer depende do contexto.
+
 
 
 
