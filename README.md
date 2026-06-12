@@ -140,3 +140,24 @@ Amontoado -> Um código que funciona, mas está bagunçado. Não tem separação
 
 Kent beck sugere para utilizarmos a técnica inline(substituição de chamadas de função pelo corpo da função em si, diretamente no local em que a chamada é feita), incorporando o máximo de código que puder, até que tudo fique em um grande amontoado. Fazendo o tidying a partir daquele ponto.
 
+### 14. Explique os comentários
+
+Se há um comentário explicando o que o trecho de código faz, transforme esse comentário em código, extraindo um método, renomeando uma variável ou reestruturando a lógica, até que o comentário se torne redundante e possa ser apagado.
+
+Comente apenas o que não está óbvio no código. O comentário é o próprio código; se precisar explicá-lo, que seja algo útil.
+
+### 15. Remova comentários redundantes
+
+"Quando encontrar um comentário que diz exatamente o que o código diz, remova-o."(pág 46 1-2)
+
+Comentário redundante:
+```js
+function getX(){
+    // retorna X
+    return x
+}
+```
+
+## Parte II
+...
+
