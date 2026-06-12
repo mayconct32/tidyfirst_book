@@ -107,7 +107,20 @@ if (response.status_code === 404_PAGE_NOT_FOUND)
 ```
 
 ### 10. Parâmetros explícitos
-... 
+
+Adicione parâmetros explícitos. Isso irá melhorar a legibilidade e a compreensão do código.
+
+"É comum ver blocos de parâmetros passados em um mapeamento(dicionário). Isso dificulta ler e entender quais dados são necessários."
+
+Antes:
+```ts
+function calcular_desconto(params){}
+```
+
+Aplicando parâmetros explícitos:
+```ts
+function calcular_desconto(preco: number, cupom: boolean){}
+```
 
 
 
