@@ -103,7 +103,7 @@ if (response.status_code === 404)
 
 Explicando a constante:
 ```js 
-if (response.status_code === PAGE_NOT_FOUND)
+if (response.status_code === 404_PAGE_NOT_FOUND)
 ```
 
 ### 10. Parâmetros explícitos
