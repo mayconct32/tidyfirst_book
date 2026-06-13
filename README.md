@@ -223,6 +223,21 @@ Organizar suas ações dentro do código, sem misturar as mudanças dentro de um
 
 "Quanto mais cedo perceber a necessidade de descomplicar as coisas, menos trabalho terá."(pág 63 10-11)
 
+### 21. Primeiro, depois, mais tarde, nunca
+
+Qual é o melhor momento para aplicar as tidyings?
+
+**Primeiro** -> Há vantagens imediatas, quando vale a pena em termos de entendimento ou de mudanças de comportamento com custos menores. "Em geral, priorize fazer o tidy primeiro, mas tome cuidado para que o tidy não se torne o principal objetivo."(pág 68 5-6)
+
+**Depois** -> Não encontrou lugares para fazer o tidying agora, ou não está em um contexto muito favorável para isso. Você mudará o comportamento nessa mesma área de novo? Se sim, faça logo após essa mudança, para facilitar as futuras mudanças de comportamento. O custo compensa?
+
+**Mais tarde** -> Não tem tempo agora. Quando tiver tempo, faça. Às vezes, o contexto exige velocidade e você precisa entregar o mais rápido possível. "Há um lote enorme de tidyings para aplicar sem vantagem imediata."(pág 68 15-16)
+
+**Nunca** -> "O melhor motivo é que não pretendemos mudar o comportamento do código nunca mais, em hipótese alguma."(pág 64 11-12)
+
+
+
+
 
 
 
