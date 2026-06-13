@@ -193,6 +193,39 @@ Separação de tidyings em um pull request
 
 Kent Beck não está prescrevendo uma regra, está pedindo para tornar visível a diferença entre estrutura e comportamento. Como você deve fazer depende do contexto.
 
+### 17. Encadeamento
+
+Cada tidying abre caminho para outra, conectando partes ou etapas de forma sequencial.
+
+### 18. Tamanhos do lote
+
+Quantas tidyings você deve fazer em cada pull request?
+
+"Quanto mais tidyings por lote, maior será o delay antes da integração."(pág 57 10-11)
+
++ tidyings por lote -> Conflitos, interações, etc...
+- tidyings por lote -> maior revisão
+
+Cortar a revisão deixará a segunda opção como a melhor. Porém, funcionará apenas em times com grande confiança entre seus membros.
+
+
+### 19. Ritmo
+
+Gerencie o ritmo das tidyings.
+
+"Dedicar mais de uma hora a uma tidying de cada vez, antes de fazer uma mudança de comportamento, provavelmente sinaliza que você perdeu a noção do conjunto mínimo de mudanças estruturais necessárias para possibilitar a mudança de comportamento desejada. Outra possibilidade, porém, é que o código esteja tão desorganizado que valha a pena dedicar horas às tidyings antes de fazer uma mudança de comportamento. Se isso é verdade, logo deixará de ser. O design de software tem forte tendência de 'pavimentar o caminho'."(pág 60 16-19 pág 61 1-4)
+
+"Mesmo que a princípio você use muito as tidyings, logo se verá querendo fazer uma mudança de comportamento no código que já passou por tidying."(pág 61 17-19)
+
+### 20. Descomplicando as coisas
+
+Organizar suas ações dentro do código, sem misturar as mudanças dentro de um fluxo de trabalho.
+
+"Quanto mais cedo perceber a necessidade de descomplicar as coisas, menos trabalho terá."(pág 63 10-11)
+
+
+
+
 
 
 
