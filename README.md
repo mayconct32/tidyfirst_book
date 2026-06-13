@@ -235,8 +235,11 @@ Qual é o melhor momento para aplicar as tidyings?
 
 **Nunca** -> "O melhor motivo é que não pretendemos mudar o comportamento do código nunca mais, em hipótese alguma."(pág 64 11-12)
 
+## Parte III
+###
 
-
+### Teoria
+...
 
 
 
