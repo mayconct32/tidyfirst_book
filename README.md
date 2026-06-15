@@ -300,9 +300,24 @@ O tidying que você faz hoje é o "prêmio". Você está comprando o direito de 
 
 "O design que fazemos hoje é o prêmio que pagamos pela 'opção' de 'comprar' a mudança de comportamento amanhã."(pág 85 25-26)
 
+### 27. Opções versus fluxos de caixa
 
+"
+- O fluxo de caixa descontado implica ganhar dinheiro mais cedo com maior probabilidade e gastá-lo mais tarde com menos probabilidade. Não faça o tidy primeiro. Significa gastar dinheiro mais cedo e ganhar dinheiro mais tarde. Talvez, nem mesmo faça o tidy depois ou mais tarde.
 
+- As opções implicam gastar dinheiro agora para ganhar mais dinheiro mais tarde(mesmo que, por ora, não saibamos exatamente como). Absolutamente, faça o tidy primeiro (quando cria opções). Faça o tidy depois e mais tarde também.
 
+"(pág 87 3-11)
 
+Fazer o tidy primeiro? Depende. kk
+
+### 28. Mudanças reversíveis de estrutura
+
+Na maioria dos casos, a mudança na estrutura é mais reversível que a mudança de comportamento(existem algumas exceções), por conta de seus impactos e consequências. A forma como fazemos essas mudanças deveria receber um pouco mais de atenção.
+
+"Via de regra, devemos tratar as decisões reversíveis de forma diferente das decisões irreversíveis. Existe um valor inestimável em fazer revisão, conferir e reconferir decisões irreversíveis. O ritmo deve ser lento e proposital. Ainda que a decisão gere vantagens, existe também o risco de consequências severas caso cometamos um erro. Sim, queremos vantagens, porém queremos ainda mais evitar as desvantagens."(pág 89 15-20)
+
+### 29. Acoplamento
+...
 
 
