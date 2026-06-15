@@ -279,5 +279,17 @@ Você cria valor com a mudança de comportamento, mas para alterar o comportamen
 - Em uma situação caótica, ter mais opções é mais vantajoso do que ter bens materiais, então crie mais opções(oportunidades) diante da incerteza."(pág 79 8-13)
 
 ### 25. Um dólar hoje > um dólar amanhã
+
+"Se eu lhe der um dólar hoje, você pode gastá-lo em algo que deseja ou poderá investi-lo de uma forma que lhe renda mais dinheiro posteriormente. Se eu lhe prometer um dólar amanhã, ele vale menos do que o dólar que lhe dou hoje, por quê?
+
+- Você não pode gastá-lo, então vale menos.
+
+- Você não pode investi-lo, então quando tiver o dinheiro em mãos, valerá menos do que o dólar que recebeu hoje.
+
+- Existe a chance de eu não lhe dar esse dinheiro. Quero dizer, não eu. Sou totalmente confiável. Mas, outra pessoa. Você deve estar preparado para não receber esse dólar. Ou seja: o 'dólar de amanhã' pode valer menos."(pág 80 5-15)
+
+"Se pudermos implementar uma mudança de comportamento que nos gere dinheiro agora e pudermos fazer o tidy depois, ganharemos dinheiro mais cedo e gastaremos dinherio mais tarde. (Como observado anteriormente, às vezes, fazer o tidy primeiro significa que o custo total de fazer o tidy primeiro + mudança de comportamento é menor do que o custo da mudança de comportamento sem fazer o tidy. Em casos como esses, sempre faça o tidy primeiro.)"(pág 81 28-29 pág 82 1-6)
+
+### 26. Opções
 ...
 
