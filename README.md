@@ -130,13 +130,13 @@ function calcular_desconto(preco: number, cupom: boolean){}
 
 ### 12. Extraia o helper
 
-Helper -> função(ou método) auxiliar criado para isolar um pedaço de lógica que estava "escondido" dentro de um método maior
+Helper - função(ou método) auxiliar criado para isolar um pedaço de lógica que estava "escondido" dentro de um método maior
 
 "Ao notar um bloco de código dentro de uma rotina que tem propósito óbvio e interação limitada com o resto do código na rotina. Extraia o bloco como uma rotina helper. Nomeie a rotina de acordo com o propósito(não como ela funciona)."(pág 41 1-4)
 
 ### 13. Um amontoado
 
-Amontoado -> Um código que funciona, mas está bagunçado. Não tem separação clara de ideias, tudo está meio "misturado" num lugar. 
+Amontoado - Um código que funciona, mas está bagunçado. Não tem separação clara de ideias, tudo está meio "misturado" num lugar. 
 
 Kent beck sugere para utilizarmos a técnica inline(substituição de chamadas de função pelo corpo da função em si, diretamente no local em que a chamada é feita), incorporando o máximo de código que puder, até que tudo fique em um grande amontoado. Fazendo o tidying a partir daquele ponto.
 
@@ -227,23 +227,57 @@ Organizar suas ações dentro do código, sem misturar as mudanças dentro de um
 
 Qual é o melhor momento para aplicar as tidyings?
 
-**Primeiro** -> Há vantagens imediatas, quando vale a pena em termos de entendimento ou de mudanças de comportamento com custos menores. "Em geral, priorize fazer o tidy primeiro, mas tome cuidado para que o tidy não se torne o principal objetivo."(pág 68 5-6)
+**Primeiro** - Há vantagens imediatas, quando vale a pena em termos de entendimento ou de mudanças de comportamento com custos menores. "Em geral, priorize fazer o tidy primeiro, mas tome cuidado para que o tidy não se torne o principal objetivo."(pág 68 5-6)
 
-**Depois** -> Não encontrou lugares para fazer o tidying agora, ou não está em um contexto muito favorável para isso. Você mudará o comportamento nessa mesma área de novo? Se sim, faça logo após essa mudança, para facilitar as futuras mudanças de comportamento. O custo compensa?
+**Depois** - Não encontrou lugares para fazer o tidying agora, ou não está em um contexto muito favorável para isso. Você mudará o comportamento nessa mesma área de novo? Se sim, faça logo após essa mudança, para facilitar as futuras mudanças de comportamento. O custo compensa?
 
-**Mais tarde** -> Não tem tempo agora. Quando tiver tempo, faça. Às vezes, o contexto exige velocidade e você precisa entregar o mais rápido possível. "Há um lote enorme de tidyings para aplicar sem vantagem imediata."(pág 68 15-16)
+**Mais tarde** - Não tem tempo agora. Quando tiver tempo, faça. Às vezes, o contexto exige velocidade e você precisa entregar o mais rápido possível. "Há um lote enorme de tidyings para aplicar sem vantagem imediata."(pág 68 15-16)
 
-**Nunca** -> "O melhor motivo é que não pretendemos mudar o comportamento do código nunca mais, em hipótese alguma."(pág 64 11-12)
+**Nunca** - "O melhor motivo é que não pretendemos mudar o comportamento do código nunca mais, em hipótese alguma."(pág 64 11-12)
 
 ## Parte III
 ###
 
 ### Teoria
+
+"Compreender a teoria optimiza a aplicação. As questões eternas no design de software são:
+
+- Quando é que começo a tomar decisões de conceção de software?
+
+- Quando é que deixo de tomar decisões de conceção de software e passo a alterar o comportamento do sistema?
+
+- Como é que tomo a próxima decisão?
+
+Estas perguntas não podem ser respondidas de forma racional e lógica porque a informação necessária para encontrar respostas racionais e lógicas não existe quando fazemos as perguntas.
+
+Compreender a teoria aguça o teu discernimento para quando tiveres de responder a estas questões com base na especulação. Compreender a teoria permite-te discordar de forma construtiva dos teus colegas geeks."(pág 69 8-19)
+
+### 22. Elementos relacionados de forma benéfica
+
+Design de software - É o processo de planejar e organizar os componentes de um sistema para que ele funcione bem, seja fácil de manter e evoluir.
+
+Definição feita por Kent Beck - "Elementos relacionados de forma benéfica"
+
+"Uma leitura da frase 'elementos relacionados de forma benéfica' começa com 'o design é...', qual é o design? São os elementos, seus relacionamentos e os benefícios oriundos desses relacionamentos."(pág 73 1-3)
+
+### 23. Estrutura e comportamento 
+
+Você cria valor com a mudança de comportamento, mas para alterar o comportamento, é necessário uma estrutura bem investida, senão, essa mudança será difícil de ser feita.
+
+"Comportamento cria valor. Em vez de calcular volumes gigantescos de números manualmente, o computador pode calcular milhões deles a cada segundo."(pág 74 15-17)
+
+"... Não precisei mudar o comportamento do meu sistema para torná-lo mais valioso. Assim que adicionei as opções do que o sistema poderia fazer a seguir, já havia ganhado dinheiro."(pág 75 17-19)(Veremos o que são opções mais à frente)
+
+### 24. Economia: valor temporal e opcionalidade
+
+"Depois que minhas lições sobre a natureza do dinheiro foram absorvidas pela minha intuição, descobri que minha atitude em relação à programação estava mudando. Antes, estratégias que faziam todo o sentido para mim pareciam bizarras quando contradiziam a natureza do dinheiro."(pág 79 1-4)
+
+"A natureza que aprendi consistia em duas propriedades surpreendentes:
+
+- Um dólar hoje vale mais do que um dólar amanhã, então ganhe mais cedo e gaste mais tarde.
+
+- Em uma situação caótica, ter mais opções é mais vantajoso do que ter bens materiais, então crie mais opções(oportunidades) diante da incerteza."(pág 79 8-13)
+
+### 25. Um dólar hoje > um dólar amanhã
 ...
-
-
-
-
-
-
 
