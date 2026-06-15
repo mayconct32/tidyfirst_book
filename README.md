@@ -291,5 +291,18 @@ Você cria valor com a mudança de comportamento, mas para alterar o comportamen
 "Se pudermos implementar uma mudança de comportamento que nos gere dinheiro agora e pudermos fazer o tidy depois, ganharemos dinheiro mais cedo e gastaremos dinherio mais tarde. (Como observado anteriormente, às vezes, fazer o tidy primeiro significa que o custo total de fazer o tidy primeiro + mudança de comportamento é menor do que o custo da mudança de comportamento sem fazer o tidy. Em casos como esses, sempre faça o tidy primeiro.)"(pág 81 28-29 pág 82 1-6)
 
 ### 26. Opções
-...
+
+As opções são contratos financeiros que dão ao investidor o direito, mas não a obrigação de comprar ou vender um ativo por um preço predeterminado até uma data futura.
+
+**Opções dentro do contexto livro**:
+
+O tidying que você faz hoje é o "prêmio". Você está comprando o direito de implementar uma mudança de comportamento amanhã a um custo baixo, sem ser obrigado a implementar nada. Se a mudança nunca acontecer, perdeu só algumas horas, se acontecer, você está preparado.
+
+"O design que fazemos hoje é o prêmio que pagamos pela 'opção' de 'comprar' a mudança de comportamento amanhã."(pág 85 25-26)
+
+
+
+
+
+
 
