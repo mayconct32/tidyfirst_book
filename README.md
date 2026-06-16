@@ -333,6 +333,28 @@ O acoplamento é um dos motivos pelo o qual as mudanças tenham um custo tão al
 
 *custo(software) ~= acoplamento*
 
+### 31. Acoplamento versus desacoplamento
+
+Por que não desacoplar tudo? Existem diferentes motivos para ter acoplamento em um sistema, como por exemplo:
+
+- O desacoplamento não vale a pena economicamente(lucre mais cedo, gaste mais tarde);
+
+- Até então, não era um problema;
+
+- É simplesmente inevitável.
+
+"A decisão fundamental permanece: você pode arcar com o custo do acoplamento ou arcar com o custo(e colher os benefícios) do desacoplamento."(pág 99 20-22)
+
+### 32. Coesão
+
+O grau em que os elementos do sistema estão relacionados e trabalham juntos para realizar uma única tarefa(agrupamento por relação)
+
+Benefícios da coesão: Análise e mudanças mais fáceis, e resistência à mudanças acidental de comportamento.
+
+
+
+
+
 
 
 
