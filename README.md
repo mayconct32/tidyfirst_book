@@ -318,6 +318,21 @@ Na maioria dos casos, a mudança na estrutura é mais reversível que a mudança
 "Via de regra, devemos tratar as decisões reversíveis de forma diferente das decisões irreversíveis. Existe um valor inestimável em fazer revisão, conferir e reconferir decisões irreversíveis. O ritmo deve ser lento e proposital. Ainda que a decisão gere vantagens, existe também o risco de consequências severas caso cometamos um erro. Sim, queremos vantagens, porém queremos ainda mais evitar as desvantagens."(pág 89 15-20)
 
 ### 29. Acoplamento
-...
+
+Acoplamento refere-se ao grau de dependência entre módulos, classes ou componentes de uma aplicação. Quanto maior o acoplamento, mais um módulo depende diretamente do outro para funcionar.
+
+### 30. Equivalência de Constantine
+
+A equivalência de constantine afirma que o custo do software é essencialmente equivalênte ao custo de suas mudanças.
+
+*custo(software) ~= custo(mudança)*
+
+O acoplamento é um dos motivos pelo o qual as mudanças tenham um custo tão alto.
+
+"O que faz com que essas mudanças tenham elevados custos? Acontece quando a mudança de um elemento exige a mudança de dois outros elementos, e cada um deles requer mudanças em outros elementos, e assim por diante... O que 'dissemina' a mudança? Acoplamento. Ou seja, o custo do software é aproximadamente igual ao acoplamento."(pág 96 14-18)
+
+*custo(software) ~= acoplamento*
+
+
 
 
