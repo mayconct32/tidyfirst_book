@@ -351,6 +351,17 @@ O grau em que os elementos do sistema estão relacionados e trabalham juntos par
 
 Benefícios da coesão: Análise e mudanças mais fáceis, e resistência à mudanças acidental de comportamento.
 
+### 33. Conclusão
+
+Você está pronto para responder à pregunta "Tidy First?" repetidas vezes? O que deve considerar: Custo, Receita, Acoplamento e Coesão.
+
+"Contudo, aqui, o mais importante é você. fazer o tidy lhe proporcionará paz, satisfação e alegria enquanto programador? Talvez um pouco. Isso é importante porque, ao ser sua melhor versão, você se torna um programador melhor. Não é possível ser a sua melhor versão se está sempre com pressa, sempre mudando um código extremamente difícil de mudar."(pág 102 12-16)
+
+"O acoplamento leva a uma tidying após outra. Tidying são como batatas Pringles do design de software. Quando pegar uma, resista ao desejo de comer a próxima. Faça o tidy para viabilizar a próxima mudança de comportamento. Reserve as tidying para momentos posteriores, quando não houver risco de atrasar mudanças que outra pessoa está esperando."(pág 102 23-25 pág 103 1-2)
+
+"Tidy First? Provavelmente sim. Na medida certa. Você merece."(pág 104 8)
+
+
 
 
 
